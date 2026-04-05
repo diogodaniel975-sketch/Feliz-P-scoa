@@ -1,13 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background: #fff0f5;
   font-family: Arial, sans-serif;
+  background: #ffe6eb;
 
   display: flex;
-  justify-content: center; /* centraliza horizontal */
-  align-items: center;     /* centraliza vertical */
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 /* Canvas no fundo */
@@ -20,32 +21,32 @@ body {
   z-index: 0;
 }
 
-/* Caixa do texto */
+/* Caixa central */
 .mensagem {
   position: relative;
   z-index: 1;
 
-  max-width: 500px;
+  max-width: 600px;
   width: 90%;
 
-  text-align: center;
-
-  background: rgba(255, 255, 255, 0.9);
-  padding: 25px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
   border-radius: 20px;
+
+  text-align: center;
 
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 /* Título */
 h1 {
-  margin-bottom: 15px;
   color: #ff4d6d;
+  margin-bottom: 20px;
 }
 
 /* Texto */
 p {
-  margin-bottom: 10px;
-  line-height: 1.6;
   color: #333;
+  line-height: 1.7;
+  margin-bottom: 15px;
 }
