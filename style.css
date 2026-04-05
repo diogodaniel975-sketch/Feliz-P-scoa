@@ -10,8 +10,8 @@ body {
 }
 
 .mensagem {
-  max-width: 700px;
-  text-align: justify;   /* deixa o texto alinhado dos dois lados */
+  max-width: 600px;          /* largura ideal para leitura */
+  text-align: justify;       /* alinhamento dos dois lados */
   background: rgba(255, 255, 255, 0.15);
   padding: 30px;
   border-radius: 15px;
