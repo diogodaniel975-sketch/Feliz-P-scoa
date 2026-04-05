@@ -1,32 +1,28 @@
 body {
   margin: 0;
-  background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+  padding: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  font-family: 'Georgia', serif;
-  overflow: hidden;
+  justify-content: center; /* centraliza horizontal */
+  align-items: center;     /* centraliza vertical */
+  min-height: 100vh;
+  background: #fff0f5;
+  font-family: Arial, sans-serif;
 }
 
 .mensagem {
-  max-width: 600px;          /* largura ideal para leitura */
-  text-align: justify;       /* alinhamento dos dois lados */
-  background: rgba(255, 255, 255, 0.15);
-  padding: 40px;
-  border-radius: 15px;
-  font-size: 1.2rem;
-  line-height: 1.8;
-  color: #fff;
-  text-shadow: 1px 1px 3px #000;
-  z-index: 10;
-  position: relative;
+  max-width: 400px;        /* controla largura da coluna */
+  width: 90%;
+  text-align: center;      /* centraliza o texto */
+  display: flex;
+  flex-direction: column;  /* deixa tudo em coluna */
+  gap: 15px;               /* espaçamento entre os textos */
 }
 
-.mensagem h1 {
-  text-align: center;
-  font-size: 2.2rem;
-  margin-bottom: 20px;
-  color: #fff;
-  text-shadow: 2px 2px 5px #000;
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+  line-height: 1.6;        /* melhora leitura */
 }
